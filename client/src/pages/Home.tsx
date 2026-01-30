@@ -85,7 +85,7 @@ export default function Home() {
               <img 
                 src="/images/50lb-bucket.png" 
                 alt="50LB Bromine Bucket"
-                className="w-full h-full object-contain scale-150"
+                className="w-full h-full object-contain scale-120"
               />
             </div>
           </div>
