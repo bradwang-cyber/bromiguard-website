@@ -43,6 +43,9 @@ export default function Home() {
             <a href="#pro" className="text-gray-700 hover:text-blue-900 font-medium">
               For Professionals
             </a>
+            <a href="#certifications" className="text-gray-700 hover:text-blue-900 font-medium">
+              Certifications
+            </a>
           </div>
         </div>
       </nav>
@@ -206,6 +209,104 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Certifications Section */}
+      <section id="certifications" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-4xl font-bold text-blue-900 mb-12 text-center">Certifications & Standards</h2>
+          <div className="grid md:grid-cols-2 gap-12">
+            {/* NSF Certification */}
+            <div className="bg-gray-50 rounded-xl p-8 border border-gray-200">
+              <div className="flex items-start gap-4 mb-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-blue-900 to-blue-700 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-2xl">NSF</span>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-blue-900 mb-1">NSF International</h3>
+                  <p className="text-sm text-gray-600">Certificate #C0569000-01</p>
+                </div>
+              </div>
+              <ul className="space-y-3 text-gray-700">
+                <li className="flex items-start gap-2">
+                  <Check className="w-5 h-5 text-red-600 flex-shrink-0 mt-0.5" />
+                  <span>Complies with NSF/ANSI/CAN 60 standards</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <Check className="w-5 h-5 text-red-600 flex-shrink-0 mt-0.5" />
+                  <span>Facility: Leache Chem Ltd., Hebei, China</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <Check className="w-5 h-5 text-red-600 flex-shrink-0 mt-0.5" />
+                  <span>Authorized to bear NSF Mark</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <Check className="w-5 h-5 text-red-600 flex-shrink-0 mt-0.5" />
+                  <span>Valid as long as products remain in NSF listing</span>
+                </li>
+              </ul>
+              <p className="text-xs text-gray-500 mt-6 pt-6 border-t border-gray-200">
+                Certified: April 7, 2021
+              </p>
+            </div>
+
+            {/* EPA Certification */}
+            <div className="bg-gray-50 rounded-xl p-8 border border-gray-200">
+              <div className="flex items-start gap-4 mb-6">
+                <div className="w-16 h-16 bg-gradient-to-br from-green-700 to-green-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">EPA</span>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-blue-900 mb-1">EPA Registration</h3>
+                  <p className="text-sm text-gray-600">Registration #94659-3</p>
+                </div>
+              </div>
+              <ul className="space-y-3 text-gray-700">
+                <li className="flex items-start gap-2">
+                  <Check className="w-5 h-5 text-red-600 flex-shrink-0 mt-0.5" />
+                  <span>Product: BROMIGUARD TABLETS</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <Check className="w-5 h-5 text-red-600 flex-shrink-0 mt-0.5" />
+                  <span>Active Ingredient: 98% BCDMH</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <Check className="w-5 h-5 text-red-600 flex-shrink-0 mt-0.5" />
+                  <span>61% Available Bromine, 29% Available Chlorine</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <Check className="w-5 h-5 text-red-600 flex-shrink-0 mt-0.5" />
+                  <span>Approved for pools, spas, and commercial facilities</span>
+                </li>
+              </ul>
+              <p className="text-xs text-gray-500 mt-6 pt-6 border-t border-gray-200">
+                Certified: June 3, 2021
+              </p>
+            </div>
+          </div>
+
+          {/* Key Features */}
+          <div className="mt-12 bg-blue-50 rounded-xl p-8 border border-blue-200">
+            <h3 className="text-2xl font-bold text-blue-900 mb-6 text-center">Why These Certifications Matter</h3>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="text-center">
+                <Shield className="w-12 h-12 text-red-600 mx-auto mb-3" />
+                <h4 className="font-bold text-blue-900 mb-2">Safety Assured</h4>
+                <p className="text-gray-700 text-sm">Both NSF and EPA certifications ensure our products meet strict safety and quality standards</p>
+              </div>
+              <div className="text-center">
+                <Zap className="w-12 h-12 text-red-600 mx-auto mb-3" />
+                <h4 className="font-bold text-blue-900 mb-2">Performance Proven</h4>
+                <p className="text-gray-700 text-sm">EPA registration confirms efficacy for water disinfection across multiple applications</p>
+              </div>
+              <div className="text-center">
+                <Check className="w-12 h-12 text-red-600 mx-auto mb-3" />
+                <h4 className="font-bold text-blue-900 mb-2">Compliance Ready</h4>
+                <p className="text-gray-700 text-sm">Meet regulatory requirements for commercial and residential water treatment</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-300 py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
@@ -227,7 +328,7 @@ export default function Home() {
               <ul className="space-y-2 text-sm">
                 <li><a href="#" className="hover:text-white">About Us</a></li>
                 <li><a href="#" className="hover:text-white">Contact</a></li>
-                <li><a href="#" className="hover:text-white">Certifications</a></li>
+                <li><a href="#certifications" className="hover:text-white">Certifications</a></li>
               </ul>
             </div>
             <div>
