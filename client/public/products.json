@@ -1,74 +1,83 @@
 [
   {
     "name": "Bromine Tablets for SPA Hot Tub, 1 inch Tablets, (3.5 LBS)",
-    "amazon_url": "https://www.amazon.com/dp/B0FWXGNF8T?th=1",
-    "image_url": "https://fls-na.amazon.com/1/oc-csi/1/OP/requestId=MDP63B0FM3QHFV2VZN7X&js=0",
     "retail_price": 44.43,
-    "wholesale_price": 31.34,
-    "official_price": 57.76
+    "website_price": 57.76,
+    "amazon_link": "https://www.amazon.com/dp/B0FWXGNF8T?th=1",
+    "asin": "B0FWXGNF8T",
+    "image_url": "https://fls-na.amazon.com/1/oc-csi/1/OP/requestId=MDP63B0FM3QHFV2VZN7X&js=0",
+    "description": ""
   },
   {
     "name": "Bromine Tablets for SPA Hot Tub 1 inch Tabs (2.2 LBS)",
-    "amazon_url": "https://www.amazon.com/dp/B0FWCDLTHD?th=1",
-    "image_url": "https://m.media-amazon.com/images/I/71QM1IuXoqL._AC_SY300_SX300_QL70_ML2_.jpg",
     "retail_price": 31.75,
-    "wholesale_price": 21.9,
-    "official_price": 41.27
+    "website_price": 41.27,
+    "amazon_link": "https://www.amazon.com/dp/B0FWCDLTHD?th=1",
+    "asin": "B0FWCDLTHD",
+    "image_url": "https://m.media-amazon.com/images/I/71QM1IuXoqL._AC_SY300_SX300_QL70_ML2_.jpg",
+    "description": ""
   },
   {
     "name": "Bromine Tablets for SPA Hot Tub, 1 inch Tablets, (1.2 LBS)",
-    "amazon_url": "https://www.amazon.com/dp/B0FWX8ZRG6",
-    "image_url": "https://m.media-amazon.com/images/I/71BNJTSMfOL._AC_SY300_SX300_QL70_ML2_.jpg",
     "retail_price": 23.52,
-    "wholesale_price": 15.74,
-    "official_price": 30.58
+    "website_price": 30.58,
+    "amazon_link": "https://www.amazon.com/dp/B0FWX8ZRG6",
+    "asin": "B0FWX8ZRG6",
+    "image_url": "https://m.media-amazon.com/images/I/71BNJTSMfOL._AC_SY300_SX300_QL70_ML2_.jpg",
+    "description": ""
   },
   {
     "name": "Bromine Tablets for Spa Hot Tub, 1 inch (6LB)",
-    "amazon_url": "https://www.amazon.com/dp/B0FR8CGHHQ?th=1",
-    "image_url": "https://fls-na.amazon.com/1/oc-csi/1/OP/requestId=5VPRVR6GCR6MH256RSQ6&js=0",
     "retail_price": 64.98,
-    "wholesale_price": 44.99,
-    "official_price": 84.47
+    "website_price": 84.47,
+    "amazon_link": "https://www.amazon.com/dp/B0FR8CGHHQ?th=1",
+    "asin": "B0FR8CGHHQ",
+    "image_url": "https://fls-na.amazon.com/1/oc-csi/1/OP/requestId=5VPRVR6GCR6MH256RSQ6&js=0",
+    "description": ""
   },
   {
     "name": "Bromine Tablets for SPA Hot Tub 1 inch  (1 LB)",
-    "amazon_url": "https://www.amazon.com/dp/B0DXFKJ64S?th=1",
-    "image_url": "https://fls-na.amazon.com/1/oc-csi/1/OP/requestId=SRJ9Q6CFEQRCT5Z862V3&js=0",
     "retail_price": 20.88,
-    "wholesale_price": 13.67,
-    "official_price": 27.14
+    "website_price": 27.14,
+    "amazon_link": "https://www.amazon.com/dp/B0DXFKJ64S?th=1",
+    "asin": "B0DXFKJ64S",
+    "image_url": "https://fls-na.amazon.com/1/oc-csi/1/OP/requestId=SRJ9Q6CFEQRCT5Z862V3&js=0",
+    "description": ""
   },
   {
     "name": "Bromine Tablets for SPA Hot Tub (5.5LB)",
-    "amazon_url": "https://www.amazon.com/dp/B0DQBW834M",
-    "image_url": "https://m.media-amazon.com/images/I/91NstrNpNpL._AC_SY300_SX300_QL70_ML2_.jpg",
     "retail_price": 65.99,
-    "wholesale_price": 46.19,
-    "official_price": 85.79
+    "website_price": 85.79,
+    "amazon_link": "https://www.amazon.com/dp/B0DQBW834M",
+    "asin": "B0DQBW834M",
+    "image_url": "https://m.media-amazon.com/images/I/91NstrNpNpL._AC_SY300_SX300_QL70_ML2_.jpg",
+    "description": ""
   },
   {
     "name": "Bromine Tablets for SPA Hot Tub (10 LB)",
-    "amazon_url": "https://www.amazon.com/dp/B0D6Z4GQ2X",
-    "image_url": "https://m.media-amazon.com/images/I/81fXp8JAmhL._AC_SY300_SX300_QL70_ML2_.jpg",
     "retail_price": 99.0,
-    "wholesale_price": 49.0,
-    "official_price": 128.7
+    "website_price": 128.7,
+    "amazon_link": "https://www.amazon.com/dp/B0D6Z4GQ2X",
+    "asin": "B0D6Z4GQ2X",
+    "image_url": "https://m.media-amazon.com/images/I/81fXp8JAmhL._AC_SY300_SX300_QL70_ML2_.jpg",
+    "description": ""
   },
   {
     "name": "Bromine Tablets for SPA Hot Tub (4 LB)",
-    "amazon_url": "https://www.amazon.com/dp/B0DFCY4DTP",
-    "image_url": "https://m.media-amazon.com/images/I/61VW1Iw1JrL._AC_SY300_SX300_QL70_ML2_.jpg",
     "retail_price": 45.98,
-    "wholesale_price": 32.18,
-    "official_price": 59.77
+    "website_price": 59.77,
+    "amazon_link": "https://www.amazon.com/dp/B0DFCY4DTP",
+    "asin": "B0DFCY4DTP",
+    "image_url": "https://m.media-amazon.com/images/I/61VW1Iw1JrL._AC_SY300_SX300_QL70_ML2_.jpg",
+    "description": ""
   },
   {
     "name": "Bromine Tablets for SPA Hot Tub (1.8 LB)",
-    "amazon_url": "https://www.amazon.com/dp/B0DM9P76TS",
-    "image_url": "https://m.media-amazon.com/images/I/71n0FJoKYRL._AC_SY300_SX300_QL70_ML2_.jpg",
     "retail_price": 28.99,
-    "wholesale_price": 20.29,
-    "official_price": 37.69
+    "website_price": 37.69,
+    "amazon_link": "https://www.amazon.com/dp/B0DM9P76TS",
+    "asin": "B0DM9P76TS",
+    "image_url": "https://m.media-amazon.com/images/I/71n0FJoKYRL._AC_SY300_SX300_QL70_ML2_.jpg",
+    "description": ""
   }
 ]
