@@ -8,6 +8,8 @@ interface Product {
   website_price: number;
   amazon_link: string;
   asin: string;
+  image_url?: string;
+  description?: string;
 }
 
 export default function Home() {
@@ -114,8 +116,16 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {products.map((product, i) => (
               <div key={i} className="bg-white rounded-xl shadow-md hover:shadow-xl transition overflow-hidden">
-                <div className="h-48 bg-gradient-to-br from-blue-100 to-gray-100 flex items-center justify-center">
-                  <div className="text-5xl">📦</div>
+                <div className="h-48 bg-gradient-to-br from-blue-100 to-gray-100 flex items-center justify-center overflow-hidden">
+                  {product.image_url ? (
+                    <img 
+                      src={product.image_url} 
+                      alt={product.name}
+                      className="w-full h-full object-contain"
+                    />
+                  ) : (
+                    <div className="text-5xl">📦</div>
+                  )}
                 </div>
                 <div className="p-6">
                   <h3 className="font-bold text-lg text-blue-900 mb-2 line-clamp-2">{product.name}</h3>
