@@ -28,10 +28,11 @@ export default function Home() {
       <nav className="sticky top-0 z-50 bg-white border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-900 to-red-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">B</span>
-            </div>
-            <span className="font-bold text-xl text-blue-900">BROMIGUARD</span>
+            <img 
+              src="/images/bromiguard-trademark-logo.png" 
+              alt="BROMIGUARD Logo"
+              className="h-12 object-contain"
+            />
           </div>
           <div className="hidden md:flex items-center gap-8">
             <a href="#products" className="text-gray-700 hover:text-blue-900 font-medium">
