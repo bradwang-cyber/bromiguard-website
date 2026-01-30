@@ -131,9 +131,7 @@ export default function Home() {
                   <h3 className="font-bold text-lg text-blue-900 mb-2 line-clamp-2">{product.name}</h3>
                   <div className="flex items-center gap-3 mb-4">
                     <span className="text-2xl font-bold text-red-600">${product.website_price.toFixed(2)}</span>
-                    <span className="text-sm text-gray-500 line-through">${product.retail_price.toFixed(2)}</span>
                   </div>
-                  <p className="text-xs text-gray-500 mb-4">Official website price (30% premium)</p>
                   <Button
                     className="w-full bg-blue-900 hover:bg-blue-800 text-white"
                     onClick={() => window.open(product.amazon_link, "_blank")}
