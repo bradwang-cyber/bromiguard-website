@@ -316,6 +316,21 @@ export default function Home() {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl font-bold text-blue-900 mb-12 text-center">Contact Us</h2>
           
+          {/* Contact Information */}
+          <div className="mb-16 bg-white rounded-xl p-8 border border-gray-200 shadow-sm max-w-2xl mx-auto">
+            <div className="flex flex-col md:flex-row gap-8 justify-center">
+              <div className="text-center">
+                <h4 className="font-bold text-blue-900 mb-2">Email</h4>
+                <a href="mailto:contact@bromiguard.com" className="text-blue-600 hover:text-blue-900 font-medium">contact@bromiguard.com</a>
+              </div>
+              <div className="hidden md:block border-r border-gray-300"></div>
+              <div className="text-center">
+                <h4 className="font-bold text-blue-900 mb-2">Phone</h4>
+                <a href="tel:(626)659-4012" className="text-blue-600 hover:text-blue-900 font-medium">(626) 659-4012</a>
+              </div>
+            </div>
+          </div>
+
           {/* Warehouse Locations */}
           <div className="mb-16">
             <h3 className="text-2xl font-bold text-blue-900 mb-8 text-center">Our Warehouse Locations</h3>
