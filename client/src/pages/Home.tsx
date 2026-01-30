@@ -75,11 +75,12 @@ export default function Home() {
                 </Button>
               </div>
             </div>
-            <div className="bg-gradient-to-br from-blue-100 to-blue-50 rounded-2xl p-8 h-96 flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-6xl mb-4">💧</div>
-                <p className="text-gray-600 font-medium">Premium Bromine Tablets</p>
-              </div>
+            <div className="bg-gradient-to-br from-blue-100 to-blue-50 rounded-2xl p-8 h-96 flex items-center justify-center overflow-hidden">
+              <img 
+                src="/images/50lb-bucket.png" 
+                alt="50LB Bromine Bucket"
+                className="w-full h-full object-contain"
+              />
             </div>
           </div>
         </div>
