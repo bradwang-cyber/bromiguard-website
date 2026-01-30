@@ -46,6 +46,9 @@ export default function Home() {
             <a href="#certifications" className="text-gray-700 hover:text-blue-900 font-medium">
               Certifications
             </a>
+            <a href="#contact" className="text-gray-700 hover:text-blue-900 font-medium">
+              Contact
+            </a>
           </div>
         </div>
       </nav>
@@ -82,7 +85,7 @@ export default function Home() {
               <img 
                 src="/images/50lb-bucket.png" 
                 alt="50LB Bromine Bucket"
-                className="w-full h-full object-contain"
+                className="w-3/4 h-3/4 object-contain"
               />
             </div>
           </div>
@@ -307,6 +310,79 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Contact Section */}
+      <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-4xl font-bold text-blue-900 mb-12 text-center">Contact Us</h2>
+          
+          {/* Warehouse Locations */}
+          <div className="mb-16">
+            <h3 className="text-2xl font-bold text-blue-900 mb-8 text-center">Our Warehouse Locations</h3>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
+                <h4 className="font-bold text-blue-900 mb-2">Bloomington, California</h4>
+                <p className="text-gray-700 text-sm leading-relaxed">1551 S Lilac Ave<br />Bloomington, CA 92316</p>
+              </div>
+              <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
+                <h4 className="font-bold text-blue-900 mb-2">Atlanta, Georgia</h4>
+                <p className="text-gray-700 text-sm leading-relaxed">3600 Southside Industrial Pkwy<br />Atlanta, GA 30354</p>
+              </div>
+              <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
+                <h4 className="font-bold text-blue-900 mb-2">Piscataway, New Jersey</h4>
+                <p className="text-gray-700 text-sm leading-relaxed">600 Ridge Road, Dock 1-5<br />Piscataway, NJ 08854</p>
+              </div>
+              <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm">
+                <h4 className="font-bold text-blue-900 mb-2">Missouri City, Texas</h4>
+                <p className="text-gray-700 text-sm leading-relaxed">611 S Cravens Rd #200<br />Missouri City, TX 77489</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Contact Form */}
+          <div className="max-w-2xl mx-auto bg-white rounded-xl p-8 border border-gray-200 shadow-sm">
+            <h3 className="text-2xl font-bold text-blue-900 mb-6 text-center">Send us a Message</h3>
+            <form className="space-y-4">
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                <input type="text" placeholder="Your Name" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900" required />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                <input type="email" placeholder="your@email.com" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900" required />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">Phone</label>
+                <input type="tel" placeholder="Your Phone Number" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900" />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">Subject</label>
+                <input type="text" placeholder="Subject" className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900" required />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                <textarea placeholder="Your Message" rows={5} className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-900"></textarea>
+              </div>
+              <Button className="w-full bg-blue-900 hover:bg-blue-800 text-white py-2" onClick={(e) => {
+                e.preventDefault();
+                const form = (e.target as HTMLButtonElement).closest('form');
+                if (form) {
+                  const name = (form.querySelector('input[placeholder="Your Name"]') as HTMLInputElement)?.value || '';
+                  const email = (form.querySelector('input[placeholder="your@email.com"]') as HTMLInputElement)?.value || '';
+                  const phone = (form.querySelector('input[placeholder="Your Phone Number"]') as HTMLInputElement)?.value || '';
+                  const subject = (form.querySelector('input[placeholder="Subject"]') as HTMLInputElement)?.value || '';
+                  const message = (form.querySelector('textarea') as HTMLTextAreaElement)?.value || '';
+                  
+                  const mailtoLink = `mailto:contact@bromiguard.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\nPhone: ${phone}\n\nMessage:\n${message}`)}`;
+                  window.location.href = mailtoLink;
+                }
+              }}>
+                Send Message
+              </Button>
+            </form>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-gray-900 text-gray-300 py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
@@ -327,7 +403,7 @@ export default function Home() {
               <h4 className="font-bold text-white mb-4">Company</h4>
               <ul className="space-y-2 text-sm">
                 <li><a href="#" className="hover:text-white">About Us</a></li>
-                <li><a href="#" className="hover:text-white">Contact</a></li>
+                <li><a href="#contact" className="hover:text-white">Contact</a></li>
                 <li><a href="#certifications" className="hover:text-white">Certifications</a></li>
               </ul>
             </div>
